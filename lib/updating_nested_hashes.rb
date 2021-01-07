@@ -51,8 +51,11 @@ def add_characters
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
       }
-      :additional_characters => []
+      
    }
+   epic_tragedy[:additional_characters] = []
+   epic_tragedy[:additional_characters] << {name: "Prince Escalus"}
+   epic_tragedy[:additional_characters] << {name: "Apothecary"}
 
    # Write code below that does the following programmatically:
    #
